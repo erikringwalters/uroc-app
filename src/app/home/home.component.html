@@ -1,3 +1,8 @@
 <h1>
   Welcome!
 </h1>
+<div id="quilt" *ngIf="images" [@listStagger]="images">
+  <ul>
+    <img *ngFor="let image of images" src='{{ image }}' class='tile' width='20%'/>
+  </ul>
+</div>
