@@ -1,7 +1,14 @@
 .tile{
   padding: 10px;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 #quilt{
   text-align: center;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
