@@ -26,12 +26,12 @@ export class HomeComponent implements OnInit {
 
   images = [];
   constructor() {
+    for (let i = 0; i <= 23; i++) { // loop through tile images in folder
+      this.images.push('../../assets/img/quilt-tiles/image (' + i + ').jpg');
+    }
    }
 
   ngOnInit() {
-    for (let i = 34; i <= 57; i++) {
-      this.images.push('../../assets/img/quilt-img-rotated/IMG_08' + i + '.jpg');
-    }
   }
 
 }
