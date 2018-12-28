@@ -3,6 +3,6 @@
 </h1>
 <div id="quilt" *ngIf="images" [@listStagger]="images">
   <ul>
-    <img *ngFor="let image of images" src='{{ image }}' class='tile rotateimg90' width='20%'/>
+    <img *ngFor="let image of images" src='{{ image }}' id='{ image }' class='tile rotateimg90' width='20%'/>
   </ul>
 </div>
