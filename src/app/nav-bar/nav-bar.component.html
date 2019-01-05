@@ -1,12 +1,12 @@
 <nav>
   <ul>
     <li>
-      <a routerLink="home">
+      <a routerLink="" [class.activated]="currentUrl == '/'">
         <i class="material-icons">Home</i>
       </a>
     </li>
     <li>
-      <a routerLink="about">
+      <a routerLink="about" [class.activated]="currentUrl == '/about'">
         <i class="material-icons">About</i>
       </a>
     </li>
