@@ -1,16 +1,19 @@
 class Tile {
   id: number;
-  name: string;
+  title: string;
   imagePath: string;
   url: string;
+  details: string;
 
-  constructor(name: string, path: string) {
-      this.name = name;
+  constructor(id: number, path: string) {
+      this.id = id;
       this.imagePath = path;
   }
-  // greet() {
-  //     return "Hello, " + this.greeting;
-  // }
+  setDetails(url: string, title: string, details: string) {
+      this.url = url;
+      this.title = title;
+      this.details = details;
+  }
 }
 
 //let greeter = new Greeter("world");
