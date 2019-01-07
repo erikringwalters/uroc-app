@@ -1,8 +1,8 @@
 <h1>
   Welcome!
 </h1>
-<div id="quilt" *ngIf="images" [@listStagger]="images">
+<div id="quilt" *ngIf="this.tiles" [@listStagger]="this.tiles">
   <ul>
-    <img *ngFor="let image of images" src='{{ image }}' id='{ image }' class='tile rotateimg90' width='20%'/>
+    <img *ngFor="let image of this.tiles" src='{{ this.tiles[image].image }}' id='{ tiles[image].image }' width='20%'/>
   </ul>
 </div>
