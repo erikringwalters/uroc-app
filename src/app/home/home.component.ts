@@ -24,12 +24,16 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
 })
 export class HomeComponent implements OnInit {
 
-  tiles =  new Array(24);
+  tiles =  new Array(30);
   constructor() {
     for (let i = 0; i <= 23; i++) { // loop through tiles and assign
       //add new tile with id and image path
-      this.tiles.push(new Tile(i,
-        '../../assets/img/quilt-tiles/image (' + i + ').jpg'));
+      let imagePath = '../../assets/img/quilt-tiles/image (' + i + ').jpg';
+      let newTile = {
+        i,
+        imagePath
+      }
+      this.tiles.push(newTile);
     }
    }
 
