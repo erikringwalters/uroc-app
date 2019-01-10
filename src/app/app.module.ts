@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { Tile } from './tile';
+//import { Tile } from './tile';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { Tile } from './tile';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    Tile
+    //Tile
   ],
   providers: [],
   bootstrap: [AppComponent]

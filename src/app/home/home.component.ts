@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
-
+import { Tile } from '../tile'
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -24,20 +24,22 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
 })
 export class HomeComponent implements OnInit {
 
-  tiles =  new Array(30);
+  tiles =  new Array <Tile>();
   constructor() {
     for (let i = 0; i <= 23; i++) { // loop through tiles and assign
       //add new tile with id and image path
       let imagePath = '../../assets/img/quilt-tiles/image (' + i + ').jpg';
-      let newTile = {
-        i,
-        imagePath
-      }
+      let newTile = new Tile(i, imagePath);
+      // let newTile = {
+      //   i,
+      //   imagePath
+      // }
       this.tiles.push(newTile);
     }
    }
 
   ngOnInit() {
+    let x = 4;
   }
 
 }
