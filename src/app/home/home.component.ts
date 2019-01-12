@@ -30,10 +30,6 @@ export class HomeComponent implements OnInit {
       //add new tile with id and image path
       let imagePath = '../../assets/img/quilt-tiles/image (' + i + ').jpg';
       let newTile = new Tile(i, imagePath);
-      // let newTile = {
-      //   i,
-      //   imagePath
-      // }
       this.tiles.push(newTile);
     }
    }
