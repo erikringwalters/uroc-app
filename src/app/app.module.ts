@@ -9,7 +9,7 @@ import { AboutComponent } from './about/about.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetailsComponent } from './details/details.component';
-//import { Tile } from './tile';
+import { CookieService } from 'angular2-cookie/services/cookies.service';
 
 @NgModule({
   declarations: [
@@ -23,9 +23,8 @@ import { DetailsComponent } from './details/details.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    //Tile
   ],
-  providers: [],
+  providers: [ CookieService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
