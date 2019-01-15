@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
 import { Tile } from '../tile'
+import { TileService } from '../tile.service';
 import { CookieService } from 'angular2-cookie/services/cookies.service';
 
 @Component({
@@ -28,13 +29,8 @@ export class HomeComponent implements OnInit {
 
   tiles =  new Array <Tile>();
 
-  constructor(private _cookieService : CookieService) {
-    for (let i = 0; i <= 23; i++) { // loop through tiles and assign
-      //add new tile with id and image path
-      let imagePath = '../../assets/img/quilt-tiles/image (' + i + ').jpg';
-      let newTile = new Tile(i, imagePath);
-      this.tiles.push(newTile);
-    }
+  constructor(private _cookieService : CookieService, private _tileService: TileService) {
+    this.tiles = _tileService.tiles;
    }
 
   ngOnInit() {
