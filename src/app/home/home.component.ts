@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private _cookieService : CookieService, private _tileService: TileService) {
     this.tiles = _tileService.tiles;
-   }
+  }
 
   ngOnInit() {
     this.setCookie('eriksCookie', 'yummy');

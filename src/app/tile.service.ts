@@ -8,13 +8,7 @@ import { KeyedCollection } from 'KeyedCollection';
 })
 export class TileService {
 
-  // var firstTile {
-  //   key: a,
-  //   details: "",
-  //   url: ""
-  // }
 
-  // tiles =  new Array <Tile>();
   tiles = new KeyedCollection<Tile>();
 
   constructor() {
@@ -25,9 +19,13 @@ export class TileService {
       this.tiles.Add(String(i), newTile);
     }
 
+    var a = "detailsdetailsdetailsdetailsdetailsdetailsdetailsdetails";
+    this.setTileDetails(0,"hat", a);
    }
 
-   setTileDetails(title: string, url: string, description: string) {
+   setTileDetails(id: number, title: string, details: string) {
+    this.tiles.Item(String(id)).title = title;
+    this.tiles.Item(String(id)).details = details;
 
    }
 }
