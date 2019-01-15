@@ -3,6 +3,7 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
 import { Tile } from '../tile'
 import { TileService } from '../tile.service';
 import { CookieService } from 'angular2-cookie/services/cookies.service';
+import { KeyedCollection } from 'KeyedCollection';
 
 @Component({
   selector: 'app-home',
@@ -27,7 +28,7 @@ import { CookieService } from 'angular2-cookie/services/cookies.service';
 })
 export class HomeComponent implements OnInit {
 
-  tiles =  new Array <Tile>();
+  tiles =  new KeyedCollection <Tile>();
 
   constructor(private _cookieService : CookieService, private _tileService: TileService) {
     this.tiles = _tileService.tiles;
