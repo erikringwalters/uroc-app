@@ -9,11 +9,4 @@ export class Tile {
       this.id = id;
       this.imagePath = path;
   }
-  setDetails(url: string, title: string, details: string) {
-      this.url = url;
-      this.title = title;
-      this.details = details;
-  }
 }
-
-//let greeter = new Greeter("world");

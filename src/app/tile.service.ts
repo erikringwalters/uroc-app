@@ -20,12 +20,19 @@ export class TileService {
     }
 
     var a = "detailsdetailsdetailsdetailsdetailsdetailsdetailsdetails";
-    this.setTileDetails(0,"hat", a);
+    this.setDetails(0,"hat", a);
    }
 
-   setTileDetails(id: number, title: string, details: string) {
+   setDetails(id: number, title: string, details: string) {
     this.tiles.Item(String(id)).title = title;
     this.tiles.Item(String(id)).details = details;
+   }
 
+   getTile(id: number) {
+    return this.tiles.Item(String(id));
+   }
+
+   getTileID(id: number) {
+    return this.tiles;
    }
 }

@@ -10,10 +10,13 @@ import { TileService } from '../tile.service';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
+  tileID$: number;
+  tile: Tile;
+  id: number;
+  constructor(private _tileService: TileService, private route: ActivatedRoute) {
+    this.route.params.subscribe(params => this.tileID$ = params.id);
 
-  tile$: Tile;
-  constructor(private data: TileService, private route: ActivatedRoute) {
-    this.route.params.subscribe(params => this.tile$ = params.id);
+    this.tile = _tileService.getTile(this.tileID$);
   }
 
   ngOnInit() {
