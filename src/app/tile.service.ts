@@ -14,7 +14,7 @@ export class TileService {
   constructor() {
     for (let i = 0; i <= 23; i++) { // loop through tiles and assign
       //add new tile with id and image path
-      let imagePath = '../assets/img/quilt-tiles/image (' + i + ').jpg';
+      let imagePath = 'https://lapstg01.blob.core.windows.net/lap04/image%20(' + i + ').jpg';
       let newTile = new Tile(i, imagePath);
       this.tiles.Add(String(i), newTile);
     }
