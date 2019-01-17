@@ -1,7 +1,10 @@
 .tileImg{
   padding: 10px;
   border-radius: 10%;
+  float: left;
+  text-align: left;
 }
 .details{
-  display: inline-block;
+  height: 425px;
+  overflow: scroll;
 }
