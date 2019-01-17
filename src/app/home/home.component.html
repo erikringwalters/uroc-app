@@ -4,7 +4,7 @@
 <div id="quilt" *ngIf="tiles" [@listStagger]="tiles">
   <ul>
     <img *ngFor="let tile of tiles" src='{{ tile.imagePath }}'
-    id='{{ tile.id }}' class='tile'width='20%' routerLink="/details/{{ tile.id }}">
+    id='{{ tile.id }}' class='tile' width='20%' routerLink="/details/{{ tile.id }}">
 
   </ul>
 </div>

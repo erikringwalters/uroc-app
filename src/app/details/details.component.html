@@ -1,4 +1,7 @@
 <div *ngIf="tile">
   <h1> {{ tile.title }} </h1>
-  <img src="{{ tile.imagePath }}"/>
+  <span>
+    <img src="{{ tile.imagePath }}" class='tileImg' width='40%'/>
+    <p class="details">{{ tile.details }}</p>
+  </span>
 </div>
