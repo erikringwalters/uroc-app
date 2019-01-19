@@ -1,3 +1,8 @@
+h1{
+  text-align: center;
+  font-size: 28pt;
+}
+
 .tileImg{
   padding: 10px;
   border-radius: 10%;
@@ -6,5 +11,5 @@
 }
 .details{
   height: 425px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
