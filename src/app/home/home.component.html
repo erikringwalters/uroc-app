@@ -3,9 +3,10 @@
 </h1>
 <div id="quilt" *ngIf="tiles" [@listStagger]="tiles">
   <ul>
-    <img *ngFor="let tile of tiles" src='{{ tile.imagePath }}'
+    <img *ngFor="let tile of tiles"
+    src='{{ tile.imagePath }}'
     id='{{ tile.id }}'
-    [ngClass]="{true: true}"
+    [ngClass]="{'hasDesc': tile.details != null}"
     class='tile'
     width='20%'
     routerLink="/details/{{ tile.id }}">
