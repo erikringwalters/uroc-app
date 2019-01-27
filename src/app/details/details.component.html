@@ -4,11 +4,12 @@
     <div col-xs-5>
       <img src="{{ tile.imagePath }}"
       class='tileImg'
-      [ngClass]="{'hasDesc': tile.details != null}"
+      [ngClass]="{'noDesc': tile.details == null}"
       width='40%'/>
     </div>
     <span>
-      <p class="details">{{ tile.details }}</p>
+      <p class="details"
+      [ngClass]="{'noDesc': tile.details != null}">{{ tile.details }}</p>
     </span>
   </div>
   </div>
