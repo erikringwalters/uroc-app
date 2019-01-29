@@ -3,6 +3,7 @@ import { trigger, style, transition, animate, keyframes, query, stagger } from '
 import { Tile } from '../tile'
 import { TileService } from '../tile.service';
 import { CookieService } from 'angular2-cookie/services/cookies.service';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-home',
