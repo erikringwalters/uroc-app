@@ -5,9 +5,12 @@
 .tile{
   padding: 10px;
   border-radius: 10%;
-
+  transition: all .2s ease-in-out;
 }
-#quilt{
+.tile:hover {
+  transform: scale(1.1);
+}
+  #quilt{
   text-align: center;
 }
 .hasDesc{
