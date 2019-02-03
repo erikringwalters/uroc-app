@@ -28,3 +28,9 @@ a, a:active{
 .a:hover {
   transform: scale(1.1);
 }
+.tileImg{
+  transition: all .5s ease-in-out;
+}
+.tileImg:hover {
+  transform: scale(1.4);
+}
