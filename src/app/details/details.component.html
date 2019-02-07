@@ -6,12 +6,16 @@
     <div col-xs-5>
       <img src="{{ tile.imagePath }}"
       class='tileImg'
-      [ngClass]="{'noDesc': tile.details == null}"
       width='40%'/>
     </div>
-    <span  [ngClass]="{'noDesc': tile.details == null}">{{ tile.details }}>
+    <div col-xs-5>
+    <span  [ngClass]="{'noDesc': tile.details == null}">{{ tile.details }}
       <p class="details"></p>
     </span>
   </div>
   </div>
-  <a routerLink="../../home"><< Back to Quilt</a>
+  </div>
+  <br/>
+  <div>
+    <a routerLink="../../home"><< Back to Quilt</a>
+  </div>
