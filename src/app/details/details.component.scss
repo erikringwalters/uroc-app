@@ -6,8 +6,8 @@ h1{
 .tileImg{
   padding: 10px;
   border-radius: 10%;
-  float: left;
-  text-align: left;
+  // float: left;
+  // text-align: left;
 }
 .details{
   height: 450px;
@@ -26,7 +26,7 @@ a{
   transition: all .2s ease-in-out;
 }
 .a:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
 }
 .tileImg{
   transition: all .5s ease-in-out;
