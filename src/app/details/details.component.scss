@@ -2,12 +2,15 @@ h1{
   text-align: center;
   font-size: 24pt;
 }
-
+.zoomed-image {
+  background-size: cover;
+  cursor: pointer;
+}
 .tileImg{
   padding: 10px;
   border-radius: 10%;
-  // float: left;
-  // text-align: left;
+  float: left;
+  text-align: left;
 }
 .details{
   height: 450px;
@@ -18,6 +21,9 @@ img .noDesc{
 }
 p .noDesc{
   overflow-y: auto;
+}
+span{
+  overflow-y: scroll;
 }
 a, a:active{
   color: white;

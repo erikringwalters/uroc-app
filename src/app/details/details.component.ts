@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Tile } from '../tile';
 import { ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs';
 import { TileService } from '../tile.service';
+import { ContentZoom } from 'react-content-zoom';
 
 @Component({
   selector: 'app-details',
