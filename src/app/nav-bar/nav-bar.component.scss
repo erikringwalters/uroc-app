@@ -1,5 +1,5 @@
 nav {
-  background: rgb(49, 49, 49);
+  background-color:#263e42;
   height: 100%;
 
   ul {
@@ -16,21 +16,13 @@ nav {
           }
 
           .activated {
-              color: rgb(255, 255, 255);
-              background-color: rgb(49, 49, 49);
+              color: black;
+              background-color: rgb(171, 242, 247);
           }
 
       }
   }
-  .tile:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
+
 
 }
 
