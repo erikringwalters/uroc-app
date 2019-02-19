@@ -10,14 +10,15 @@ nav {
       li {
 
           a {
-              color: rgb(171, 242, 247);
+              color: white;
               padding: 20px;
               display: block;
           }
 
           .activated {
-              color: black;
-              background-color: rgb(171, 242, 247);
+              color: rgb(171, 242, 247);
+              background-color: black;
+              // border-radius: -2%;
           }
 
       }
