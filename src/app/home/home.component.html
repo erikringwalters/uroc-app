@@ -1,16 +1,27 @@
-<h1 id=title>
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1 id=title>
   UROC Quilt
 </h1>
 <div id="quilt" *ngIf="tiles" [@listStagger]="tiles">
   <ul>
     <img *ngFor="let tile of tiles"
-    src='{{ tile.imagePath }}'
-    id='{{ tile.id }}'
+    mat-raised-button
+    matTooltip="Info about the action"
+    aria-label="Button that displays a tooltip when focused or hovered over"
+    src="{{ tile.imagePath }}"
+    id="{{ tile.id }}"
     [ngClass]="{'hasDesc': tile.details != null}"
-    class='tile'
-    width='20%'
-    routerLink="/details/{{ tile.id }}">
+    class="tile"
+    width="20%"
+    routerLink="/details/{{ tile.id }}"/>
     <!-- consider pop-ups or 'click here' alert kinda thing ya know? -->
 
   </ul>
 </div>
+</body>
+</html>
