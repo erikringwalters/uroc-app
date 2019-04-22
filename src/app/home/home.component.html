@@ -12,7 +12,8 @@
     <img *ngFor="let tile of tiles"
     mat-raised-button
     matTooltip="Info about the action"
-    aria-label="Button that displays a tooltip when focused or hovered over"
+
+    aria-label="Button that displays a tooltip in various positions"
     src="{{ tile.imagePath }}"
     id="{{ tile.id }}"
     [ngClass]="{'hasDesc': tile.details != null}"
