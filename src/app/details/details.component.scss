@@ -12,15 +12,8 @@ h1{
   float: left;
   text-align: left;
 }
-.details{
-  height: 450px;
-  // overflow-y: scroll;
-}
-img .noDesc{
-  width: 60%;
-}
-p .noDesc{
-  overflow-y: auto;
+span.tileDetails{
+  text-indent: 70px;
 }
 span{
   overflow-y: scroll;
