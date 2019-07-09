@@ -194,31 +194,31 @@ export class TileService {
     </p>`);
 
     //titles
-    this.tileTitle.push(`<p>1.	Get Ready</p>`);
-    this.tileTitle.push(`<p>2. The Quilters</p>`);
-    this.tileTitle.push(`<p>3. Plan the Pattern </p>`);
-    this.tileTitle.push(`<p>4. Gather Tools</p>`);
-    this.tileTitle.push(`<p>5. Needles & Thread</p>`);
-    this.tileTitle.push(`<p>6. Fabric</p>`);
-    this.tileTitle.push(`<p>7. Scissors</p>`);
-    this.tileTitle.push(`<p>8. Pins</p>`);
-    this.tileTitle.push(`<p>9. Ruler</p>`);
-    this.tileTitle.push(`<p>10. Measure</p>`);
-    this.tileTitle.push(`<p>11. Measure Again</p>`);
-    this.tileTitle.push(`<p>12. Cut</p>`);
-    this.tileTitle.push(`<p>13. Patchwork</p>`);
-    this.tileTitle.push(`<p>14. Baste</p>`);
-    this.tileTitle.push(`<p>15. Stitch</p>`);
-    this.tileTitle.push(`<p>16. Bind</p>`);
-    this.tileTitle.push(`<p>17. Admire</p>`);
-    this.tileTitle.push(`<p>18. Reflect</p>`);
-    this.tileTitle.push(`<p>19. Get Cozy!</p>`);
-    this.tileTitle.push(`<p>20. Acknowledgements</p>`);
-    this.tileTitle.push(`<p>21. Work Cited</p>`);
-    this.tileTitle.push(`<p></p>`);
-    this.tileTitle.push(`<p></p>`);
-    this.tileTitle.push(`<p></p>`);
-    this.tileTitle.push(`<p></p>`);
+    this.tileTitle.push(`1.	Get Ready`);
+    this.tileTitle.push(`2. The Quilters`);
+    this.tileTitle.push(`3. Plan the Pattern`);
+    this.tileTitle.push(`4. Gather Tools`);
+    this.tileTitle.push(`5. Needles & Thread`);
+    this.tileTitle.push(`6. Fabric`);
+    this.tileTitle.push(`7. Scissors`);
+    this.tileTitle.push(`8. Pins`);
+    this.tileTitle.push(`9. Ruler`);
+    this.tileTitle.push(`10. Measure`);
+    this.tileTitle.push(`11. Measure Again`);
+    this.tileTitle.push(`12. Cut`);
+    this.tileTitle.push(`13. Patchwork`);
+    this.tileTitle.push(`14. Baste`);
+    this.tileTitle.push(`15. Stitch`);
+    this.tileTitle.push(`16. Bind`);
+    this.tileTitle.push(`17. Admire`);
+    this.tileTitle.push(`18. Reflect`);
+    this.tileTitle.push(`19. Get Cozy!`);
+    this.tileTitle.push(`20. Acknowledgements`);
+    this.tileTitle.push(`21. Work Cited`);
+    this.tileTitle.push(``);
+    this.tileTitle.push(``);
+    this.tileTitle.push(``);
+    this.tileTitle.push(``);
 
     for(let i = 0; i <= 23; i++) {
       this.setDetails(i, this.tileTitle[i], this.tileDescription[i]);
