@@ -17,7 +17,7 @@ export class TileService {
   tileDescription = new Array<string>();
 
   constructor() {
-    for (let i = 0; i <= 23; i++) { // loop through tiles and assign
+    for (let i = 0; i <= 23; i++) { // loop through tiles
       //add new tile with id and image path
       let imagePath = 'https://lapstg01.blob.core.windows.net/lap04/image%20(' + i + ').jpg';
       let newTile = new Tile(i, imagePath);
