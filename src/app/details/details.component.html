@@ -1,5 +1,9 @@
 <a routerLink="../../home"><< Back to Quilt</a>
 
+<div *ngIf='prevTile' col-3>
+  <a routerLink="./home/details/prevTile.id">< previous</a>
+</div>
+
 <div *ngIf="tile">
   <h1> {{ tile.title }} </h1>
   <div class="row">

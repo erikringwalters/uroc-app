@@ -35,7 +35,6 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.setCookie('eriksCookie', 'yummy');
   }
 
   setCookie(key: string, value: string) {

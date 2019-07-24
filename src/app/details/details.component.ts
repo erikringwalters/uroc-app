@@ -21,8 +21,8 @@ export class DetailsComponent implements OnInit {
     this.route.params.subscribe(params => this.tileID$ = params.id);
 
     this.tile = _tileService.getTile(this.tileID$);
-    this.nextTile = _tileService.getTile(this.tileID$ + 1);
-    this.prevTile = _tileService.getTile(this.tileID$ - 1);
+    this.nextTile = _tileService.getTile(Number(this.tileID$) + 1);
+    this.prevTile = _tileService.getTile(Number(this.tileID$) - 1);
   }
 
   ngOnInit() {
