@@ -33,3 +33,9 @@ a{
 .tileImg:hover {
   transform: scale(1.4);
 }
+.prevTile{
+  float: left;
+}
+.nextTile{
+  float: right;
+}
