@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { DetailsComponent } from './details/details.component';
 
 import { CookieService } from 'angular2-cookie/services/cookies.service';
@@ -16,7 +15,6 @@ import { TileService } from './tile.service';
   declarations: [
     AppComponent,
     NavBarComponent,
-    AboutComponent,
     HomeComponent,
     DetailsComponent
   ],
