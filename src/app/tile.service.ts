@@ -193,6 +193,23 @@ export class TileService {
     </p><p>Ybarra-Frausto, T. (1989). Rasquachismo: a Chicano sensibility. School by the River Press.
     </p>`);
 
+    this.tileDescription.push(`
+    <img src='../assets/img/gallery/Figure1.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure2.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure3.jpg' height='400px' alt=''/>`)
+
+    this.tileDescription.push(`
+    <img src='../assets/img/gallery/Figure4.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure5.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure6.jpg' height='400px' alt=''/>`)
+
+    this.tileDescription.push(`
+    <img src='../assets/img/gallery/Figure7.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure8.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure9.jpg' height='400px' alt=''/>
+    <img src='../assets/img/gallery/Figure10.jpg' height='400px' alt=''/>`)
+
+
     //titles
     this.tileTitle.push(`1.	Get Ready`);
     this.tileTitle.push(`2. The Quilters`);
@@ -215,10 +232,9 @@ export class TileService {
     this.tileTitle.push(`19. Get Cozy!`);
     this.tileTitle.push(`20. Acknowledgements`);
     this.tileTitle.push(`21. Work Cited`);
-    this.tileTitle.push(``);
-    this.tileTitle.push(``);
-    this.tileTitle.push(``);
-    this.tileTitle.push(``);
+    this.tileTitle.push(`22. Gallery Pt. 1`);
+    this.tileTitle.push(`23. Gallery Pt. 2`);
+    this.tileTitle.push(`24. Gallery Pt. 3`);
 
     for(let i = 0; i <= 23; i++) {
       this.setDetails(i, this.tileTitle[i], this.tileDescription[i]);
