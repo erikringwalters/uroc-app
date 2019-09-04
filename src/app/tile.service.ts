@@ -24,7 +24,7 @@ export class TileService {
       this.tiles.Add(String(i), newTile);
     }
 
-    this.tileDescription.push(`<p>Welcome to the quilt. We’re glad you found us. This multimodal project spans a year of scholarship, sewing, and social justice. With it we try to represent our experience accurately: a physical/digital compilation of mixed media, mixed methods, mixed writers, theories, and identities. Our digital quilt represents our physical quilt, and our physical quilt represents our embodied realities. Our immediate goal is simple, to contribute to ongoing conversations about critical making as composition pedagogy and provide pedagogical and practical implications for employing critical making in the writing classroom. Our larger goal is to solidify the connections between critical making and decolonial rhetorics, advancing critical making as a decolonial classroom option that answers the pedagogical and curricular needs of historically underrepresented student populations (Austin & Oseguera, 2004). As you explore the quilt we invite you to consider these goals and use our journey as evidence of critical making as decolonial writing classroom praxis.</p>`);
+    this.tileDescription.push(`<p text-indent='70px'>Welcome to the quilt. We’re glad you found us. This multimodal project spans a year of scholarship, sewing, and social justice. With it we try to represent our experience accurately: a physical/digital compilation of mixed media, mixed methods, mixed writers, theories, and identities. Our digital quilt represents our physical quilt, and our physical quilt represents our embodied realities. Our immediate goal is simple, to contribute to ongoing conversations about critical making as composition pedagogy and provide pedagogical and practical implications for employing critical making in the writing classroom. Our larger goal is to solidify the connections between critical making and decolonial rhetorics, advancing critical making as a decolonial classroom option that answers the pedagogical and curricular needs of historically underrepresented student populations (Austin & Oseguera, 2004). As you explore the quilt we invite you to consider these goals and use our journey as evidence of critical making as decolonial writing classroom praxis.</p>`);
     this.tileDescription.push(`<p>Who are we? We are quilters; but we started as an assistant professor of composition studies, two students in an upper division writing in the disciplines course, a student interested in decolonial theory and undergraduate research, and a computer science student interested in coding. In the process of becoming quilters we have each found ways to define our roles and identities in relationship to scholarship, writing, and critical making. Like the individual blocks of our physical quilt, we maintain our agency and autonomy in our separate goals and identities while still coming together to inform this project. Respectful of these quilting lessons and outcomes, this essay represents our individual voices and experiences. As this work will argue, part of reframing composition through maker projects, rasquachismo, and decolonial social justice projects is to broaden the scope of who counts and what counts as composer, expert, and authority. Thus, this article is a practice in that very work. The authors represent a “quilting together,” if you will, of voices, experiences, and expertise. True to quilting etiquette, the authors refuse the traditional genre of standard edited academic article and instead allow their individual writing to maintain its own style. The article itself, then, is also “quilted composition:” four voices, ideas, and experiences sewn together by transitions, section breaks, and collaborative effort, bound by the conventions of an academic article, and pieced together through coded webtext. Our shifts in voice, style, tone, and ideas are purposeful, even if at times awkward. We give credit to individual voices when necessary and come together as one when our ideas converge.
     </p><p>Our digital quilt explores “Quilting Composition” through research and reflection. Although we invite you to interact with the quilt in your own way, Kelly introduces the project, and then Leslie provides the history of quilting and textile arts and their relationship to rhetoric and composition, emphasizing their usefulness as decolonial, feminist social justice projects. Next, Giana discusses textile arts and maker projects as composition classroom pedagogy, and the current trends in composition and critical making. Alyssa follows with a look at methodology; more specifically, how is it that quilting composition is both theory, method, and actual practice of an intersectional chicanx, decolonial, feminist approach to teaching and understanding writing. Finally, Erik codes our writing together into a digital quilt. Using the theoretical foundation of quilting as social justice maker project and classroom composition praxis, we provide observations from our experiences throughout, as students, instructors, and outside researchers. We conclude by arguing that quilting, when contextualized as decolonial, feminist, rasquache maker project is specifically useful for teaching students about writing, but also for encouraging them to see the risks and rewards of writing in its myriad forms as a tool for social justice and advocacy.
     </p>`);
@@ -194,20 +194,50 @@ export class TileService {
     </p>`);
 
     this.tileDescription.push(`
-    <img src='../assets/img/gallery/Figure1.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure2.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure3.jpg' height='400px' alt=''/>`)
+    <p>Figure 1. Students planning and beginning their quilt blocks using donated fabrics (2018).
+    </p>
+    <img src='../assets/img/gallery/Figure1.jpg' height='400px' alt='Figure1' transform:'rotate(45deg)'/>
+
+    <p>Figure 2. After the students finished their blocks, they deliberated on how to best arrange the blocks into the quilt. The original plan was to include three additional co-constructed class blocks, but that plan had to be revised after a student left the class (2018).
+    </p>
+    <img src='../assets/img/gallery/Figure2.jpg' height='400px' alt='Figure2'/>
+
+    <p>Figure 3. Students took turns sewing the binding of the quilt. Each student was responsible for sewing one section of the binding (2018).
+    </p>
+    <img src='../assets/img/gallery/Figure3.jpg' height='400px' alt='Figure3'/>
+
+    <p>Figure 4. The class and the quilt on the last day of class during a “Quilt Party” celebrating our accomplishments (2018).
+    </p>
+    <img src='../assets/img/gallery/Figure4.jpg' height='400px' alt='Figure4'/>
+
+    <p>Figure 5. Kelly Medina-López, Alyssa Riley, Leslie Maldonado, and Giana Hamilton presenting their “Quilting Composition” research at the 2018 CSUMB Summer Research Symposium.
+    </p>
+    <img src='../assets/img/gallery/Figure5.jpg' height='400px' alt='Figure5'/>
+    `)
 
     this.tileDescription.push(`
-    <img src='../assets/img/gallery/Figure4.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure5.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure6.jpg' height='400px' alt=''/>`)
+    <p>Figure 6. Alyssa Riley, Giana Hamilton, and Leslie Maldonado presenting their research during a poster session at the 2018 CSUMB Summer Research Symposium.
+    </p>
+    <img src='../assets/img/gallery/Figure6.jpg' height='450px' alt='Figure6'/>
+
+    <p>Figure 7. Preparing quilt blocks for a workshop at the 2019 Conference on College Composition and Communication in Kelly’s office.
+    </p>
+    <img src='../assets/img/gallery/Figure7.jpg' height='500px' alt='Figure7'/>
+
+    <p>Figure 8. Leslie Maldonado, Giana Hamilton, Kelly Medina-López, and Alyssa Riley hosting a workshop at the 2019 Conference on College Composition and Communication.
+    </p>
+    <img src='../assets/img/gallery/Figure8.jpg' height='400px' alt='Figure8'/>
+
+    <p>Figure 9. Quilting with workshop participants at the 2019 Conference on College Composition and Communication.
+    </p>
+    <img src='../assets/img/gallery/Figure9.jpg' height='400px' alt='Figure9'/>
+
+    <p>Figure 10. Workshop participants at the 2019 Conference on College Composition and Communication sewed a quilt of “scholarly identities.”
+    </p>
+    <img src='../assets/img/gallery/Figure10.jpg' height='400px' alt='Figure10'/>`)
 
     this.tileDescription.push(`
-    <img src='../assets/img/gallery/Figure7.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure8.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure9.jpg' height='400px' alt=''/>
-    <img src='../assets/img/gallery/Figure10.jpg' height='400px' alt=''/>`)
+    `)
 
 
     //titles
