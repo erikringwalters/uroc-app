@@ -264,7 +264,7 @@ export class TileService {
     this.tileTitle.push(`21. Work Cited`);
     this.tileTitle.push(`22. Gallery Pt. 1`);
     this.tileTitle.push(`23. Gallery Pt. 2`);
-    this.tileTitle.push(`24. Gallery Pt. 3`);
+    this.tileTitle.push(`24. About the Quilters`);
 
     for(let i = 0; i <= 23; i++) {
       this.setDetails(i, this.tileTitle[i], this.tileDescription[i]);
