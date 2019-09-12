@@ -9,12 +9,13 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
     path: 'details/:id',
     component: DetailsComponent
-  },
-  { path: '**', redirectTo: 'home', pathMatch: 'full' },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
-
+  }
 ];
 
 @NgModule({
