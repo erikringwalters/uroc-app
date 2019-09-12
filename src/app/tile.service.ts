@@ -194,47 +194,47 @@ export class TileService {
     </p>`);
 
     this.tileDescription.push(`
-    <p>Figure 1. Students planning and beginning their quilt blocks using donated fabrics (2018).
-    </p>
-    <img src='../assets/img/gallery/Figure1.jpg' height='400px' alt='Figure1' transform:'rotate(45deg)'/>
+    <h4>Figure 1. Students planning and beginning their quilt blocks using donated fabrics (2018).
+    </h4>
+    <img src='../assets/img/gallery/Figure1.jpg' width='600px' alt='Figure1' transform:'rotate(45deg)'/>
 
-    <p>Figure 2. After the students finished their blocks, they deliberated on how to best arrange the blocks into the quilt. The original plan was to include three additional co-constructed class blocks, but that plan had to be revised after a student left the class (2018).
-    </p>
-    <img src='../assets/img/gallery/Figure2.jpg' height='400px' alt='Figure2'/>
+    <h4>Figure 2. After the students finished their blocks, they deliberated on how to best arrange the blocks into the quilt. The original plan was to include three additional co-constructed class blocks, but that plan had to be revised after a student left the class (2018).
+    </h4>
+    <img src='../assets/img/gallery/Figure2.jpg' width='600px' alt='Figure2'/>
 
-    <p>Figure 3. Students took turns sewing the binding of the quilt. Each student was responsible for sewing one section of the binding (2018).
-    </p>
-    <img src='../assets/img/gallery/Figure3.jpg' height='400px' alt='Figure3'/>
+    <h4>Figure 3. Students took turns sewing the binding of the quilt. Each student was responsible for sewing one section of the binding (2018).
+    </h4>
+    <img src='../assets/img/gallery/Figure3.jpg' width='600px' alt='Figure3'/>
 
-    <p>Figure 4. The class and the quilt on the last day of class during a “Quilt Party” celebrating our accomplishments (2018).
-    </p>
-    <img src='../assets/img/gallery/Figure4.jpg' height='400px' alt='Figure4'/>
+    <h4>Figure 4. The class and the quilt on the last day of class during a “Quilt Party” celebrating our accomplishments (2018).
+    </h4>
+    <img src='../assets/img/gallery/Figure4.jpg' width='600px' alt='Figure4'/>
 
-    <p>Figure 5. Kelly Medina-López, Alyssa Riley, Leslie Maldonado, and Giana Hamilton presenting their “Quilting Composition” research at the 2018 CSUMB Summer Research Symposium.
-    </p>
-    <img src='../assets/img/gallery/Figure5.jpg' height='400px' alt='Figure5'/>
+    <h4>Figure 5. Kelly Medina-López, Alyssa Riley, Leslie Maldonado, and Giana Hamilton presenting their “Quilting Composition” research at the 2018 CSUMB Summer Research Symposium.
+    </h4>
+    <img src='../assets/img/gallery/Figure5.jpg' width='600px' alt='Figure5'/>
     `)
 
     this.tileDescription.push(`
-    <p>Figure 6. Alyssa Riley, Giana Hamilton, and Leslie Maldonado presenting their research during a poster session at the 2018 CSUMB Summer Research Symposium.
-    </p>
+    <h4>Figure 6. Alyssa Riley, Giana Hamilton, and Leslie Maldonado presenting their research during a poster session at the 2018 CSUMB Summer Research Symposium.
+    </h4>
     <img src='../assets/img/gallery/Figure6.jpg' height='450px' alt='Figure6'/>
 
-    <p>Figure 7. Preparing quilt blocks for a workshop at the 2019 Conference on College Composition and Communication in Kelly’s office.
-    </p>
+    <h4>Figure 7. Preparing quilt blocks for a workshop at the 2019 Conference on College Composition and Communication in Kelly’s office.
+    </h4>
     <img src='../assets/img/gallery/Figure7.jpg' height='500px' alt='Figure7'/>
 
-    <p>Figure 8. Leslie Maldonado, Giana Hamilton, Kelly Medina-López, and Alyssa Riley hosting a workshop at the 2019 Conference on College Composition and Communication.
-    </p>
-    <img src='../assets/img/gallery/Figure8.jpg' height='400px' alt='Figure8'/>
+    <h4>Figure 8. Leslie Maldonado, Giana Hamilton, Kelly Medina-López, and Alyssa Riley hosting a workshop at the 2019 Conference on College Composition and Communication.
+    </h4>
+    <img src='../assets/img/gallery/Figure8.jpg' width='600px' alt='Figure8'/>
 
-    <p>Figure 9. Quilting with workshop participants at the 2019 Conference on College Composition and Communication.
-    </p>
-    <img src='../assets/img/gallery/Figure9.jpg' height='400px' alt='Figure9'/>
+    <h4>Figure 9. Quilting with workshop participants at the 2019 Conference on College Composition and Communication.
+    </h4>
+    <img src='../assets/img/gallery/Figure9.jpg' width='600px' alt='Figure9'/>
 
-    <p>Figure 10. Workshop participants at the 2019 Conference on College Composition and Communication sewed a quilt of “scholarly identities.”
-    </p>
-    <img src='../assets/img/gallery/Figure10.jpg' height='400px' alt='Figure10'/>`)
+    <h4>Figure 10. Workshop participants at the 2019 Conference on College Composition and Communication sewed a quilt of “scholarly identities.”
+    </h4>
+    <img src='../assets/img/gallery/Figure10.jpg' width='600px' alt='Figure10'/>`)
 
     this.tileDescription.push(`
     `)

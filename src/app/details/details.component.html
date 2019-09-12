@@ -1,4 +1,4 @@
-<a routerLink="../../home"><< Back to Quilt</a>
+<a class="backToQuilt" routerLink="../../home"><< Back to Quilt</a>
 
 <div class="row">
   <div class="prevTile" *ngIf="prevTile" col-3>
@@ -21,7 +21,7 @@
       width='40%'/>
     </div>
     <div col-xs-5>
-    <span class="" [innerHTML]='tile.details'>
+    <span [className]="tile.id > 19 ? 'noIndent': 'indented'" [innerHTML]='tile.details'>
     </span>
     </div>
     <br/>

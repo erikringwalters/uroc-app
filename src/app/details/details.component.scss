@@ -12,26 +12,31 @@ h1{
   float: left;
   text-align: left;
 }
-span.tileDetails{
+span.indented{
   text-indent: 70px;
+}
+span.noIndent{
+  text-indent: 0px;
+  border-radius: 5px;
+
 }
 span{
   overflow-y: scroll;
 }
-a, a:active{
+a{
+  font-size: 16pt;
+  font-weight: bold;
   color: #9dd8ff;
 }
-a{
-  transition: all .2s ease-in-out;
-}
-.a:hover {
-  transform: scale(1.01);
-}
+
 .tileImg{
   transition: all .5s ease-in-out;
 }
 .tileImg:hover {
   transform: scale(1.4);
+}
+.backToQuilt {
+  color: #600473;
 }
 .prevTile{
   float: left;
@@ -42,7 +47,4 @@ a{
 .galleryPic{
   border-radius: 5%;
   height: 500px;
-}
-.noIndent {
-  text-indent: 0px;
 }
