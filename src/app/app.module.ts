@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { MatTooltipModule } from '@angular/material/tooltip';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -22,7 +21,6 @@ import { TileService } from './tile.service';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // MatTooltipModule
   ],
   providers: [ CookieService, TileService ],
   bootstrap: [AppComponent]

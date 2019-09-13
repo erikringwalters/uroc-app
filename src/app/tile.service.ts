@@ -17,13 +17,13 @@ export class TileService {
   tileDescription = new Array<string>();
 
   constructor() {
-    for (let i = 0; i <= 23; i++) { // loop through tiles
-      //add new tile with id and image path
-      let imagePath = 'https://lapstg01.blob.core.windows.net/lap04/image%20(' + i + ').jpg';
+    for (let i = 1; i <= 24; i++) {
+      let imagePath = 'https://lapstg01.blob.core.windows.net/lap04/image%20(' + (i-1) + ').jpg';
       let newTile = new Tile(i, imagePath);
       this.tiles.Add(String(i), newTile);
     }
 
+    this.tileDescription.push(""); // [0] is empty
     this.tileDescription.push(`<p text-indent='70px'>Welcome to the quilt. We’re glad you found us. This multimodal project spans a year of scholarship, sewing, and social justice. With it we try to represent our experience accurately: a physical/digital compilation of mixed media, mixed methods, mixed writers, theories, and identities. Our digital quilt represents our physical quilt, and our physical quilt represents our embodied realities. Our immediate goal is simple, to contribute to ongoing conversations about critical making as composition pedagogy and provide pedagogical and practical implications for employing critical making in the writing classroom. Our larger goal is to solidify the connections between critical making and decolonial rhetorics, advancing critical making as a decolonial classroom option that answers the pedagogical and curricular needs of historically underrepresented student populations (Austin & Oseguera, 2004). As you explore the quilt we invite you to consider these goals and use our journey as evidence of critical making as decolonial writing classroom praxis.</p>`);
     this.tileDescription.push(`<p>Who are we? We are quilters; but we started as an assistant professor of composition studies, two students in an upper division writing in the disciplines course, a student interested in decolonial theory and undergraduate research, and a computer science student interested in coding. In the process of becoming quilters we have each found ways to define our roles and identities in relationship to scholarship, writing, and critical making. Like the individual blocks of our physical quilt, we maintain our agency and autonomy in our separate goals and identities while still coming together to inform this project. Respectful of these quilting lessons and outcomes, this essay represents our individual voices and experiences. As this work will argue, part of reframing composition through maker projects, rasquachismo, and decolonial social justice projects is to broaden the scope of who counts and what counts as composer, expert, and authority. Thus, this article is a practice in that very work. The authors represent a “quilting together,” if you will, of voices, experiences, and expertise. True to quilting etiquette, the authors refuse the traditional genre of standard edited academic article and instead allow their individual writing to maintain its own style. The article itself, then, is also “quilted composition:” four voices, ideas, and experiences sewn together by transitions, section breaks, and collaborative effort, bound by the conventions of an academic article, and pieced together through coded webtext. Our shifts in voice, style, tone, and ideas are purposeful, even if at times awkward. We give credit to individual voices when necessary and come together as one when our ideas converge.
     </p><p>Our digital quilt explores “Quilting Composition” through research and reflection. Although we invite you to interact with the quilt in your own way, Kelly introduces the project, and then Leslie provides the history of quilting and textile arts and their relationship to rhetoric and composition, emphasizing their usefulness as decolonial, feminist social justice projects. Next, Giana discusses textile arts and maker projects as composition classroom pedagogy, and the current trends in composition and critical making. Alyssa follows with a look at methodology; more specifically, how is it that quilting composition is both theory, method, and actual practice of an intersectional chicanx, decolonial, feminist approach to teaching and understanding writing. Finally, Erik codes our writing together into a digital quilt. Using the theoretical foundation of quilting as social justice maker project and classroom composition praxis, we provide observations from our experiences throughout, as students, instructors, and outside researchers. We conclude by arguing that quilting, when contextualized as decolonial, feminist, rasquache maker project is specifically useful for teaching students about writing, but also for encouraging them to see the risks and rewards of writing in its myriad forms as a tool for social justice and advocacy.
@@ -241,6 +241,7 @@ export class TileService {
 
 
     //titles
+    this.tileTitle.push(` `); // [0] is empty
     this.tileTitle.push(`1.	Get Ready`);
     this.tileTitle.push(`2. The Quilters`);
     this.tileTitle.push(`3. Plan the Pattern`);
@@ -266,7 +267,7 @@ export class TileService {
     this.tileTitle.push(`23. Gallery Pt. 2`);
     this.tileTitle.push(`24. About the Quilters`);
 
-    for(let i = 0; i <= 23; i++) {
+    for(let i = 1; i <= 24; i++) {
       this.setDetails(i, this.tileTitle[i], this.tileDescription[i]);
     }
   }
