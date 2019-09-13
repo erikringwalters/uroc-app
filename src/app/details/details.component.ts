@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Tile } from '../tile';
 import { ActivatedRoute } from '@angular/router';
 import { TileService } from '../tile.service';
-import { ContentZoom } from 'react-content-zoom';
 
 @Component({
   selector: 'app-details',
@@ -16,6 +15,10 @@ export class DetailsComponent implements OnInit {
 
   nextTile: Tile;
   prevTile: Tile;
+
+  nextTilePath: string;
+  prevTilePath: string;
+
 
   constructor(private _tileService: TileService, private route: ActivatedRoute) {
     this.route.params.subscribe(params => this.tileID$ = params.id);

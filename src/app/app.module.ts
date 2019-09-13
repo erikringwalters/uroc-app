@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
+import { RouterModule } from '@angular/router';
+
 
 import { CookieService } from 'angular2-cookie/services/cookies.service';
 import { TileService } from './tile.service';
@@ -21,6 +23,7 @@ import { TileService } from './tile.service';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    RouterModule
   ],
   providers: [ CookieService, TileService ],
   bootstrap: [AppComponent]
