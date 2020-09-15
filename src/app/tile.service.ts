@@ -279,7 +279,7 @@ export class TileService {
     this.tileTitle.push(`18. Reflect`);
     this.tileTitle.push(`19. Get Cozy!`);
     this.tileTitle.push(`20. Acknowledgements`);
-    this.tileTitle.push(`21. Work Cited`);
+    this.tileTitle.push(`21. References`);
     this.tileTitle.push(`22. Gallery Pt. 1`);
     this.tileTitle.push(`23. Gallery Pt. 2`);
     this.tileTitle.push(`24. About the Quilters`);
